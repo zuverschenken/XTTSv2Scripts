@@ -9,7 +9,7 @@ audio_dir = "path to dir containing wav files we want to split up"
 out_path = "where to save outputted clips"
 
 sen_time = 1.1 #amount of silence that the algorithm assumes is the end of a sentence
-max_len = 16.0 #maximum allowed length of one clip of audio
+max_len = 13.0 #maximum allowed length of one clip of audio
 
 #NOTE: for each source audio file, you need to manually check which speaker ID pyannote assigned your target speaker. Look at the diarization files and listen to the audio.  
 desired_speaker = {
