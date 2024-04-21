@@ -7,7 +7,7 @@ Collection of helper scripts for creating LJSpeech format dataset for TTS. [here
 I'm assuming you're starting with 1 or more long WAV audio files that all contain at least some speech from your target speaker and you want to turn it into a LJSpeech style dataset.
 
 ### Using these scripts: ###
-Follow along with the "NOTE:" comments in each .py file
+Follow along with the "#NOTE:" comments in each .py file
 
 1. Give your source audio to diarize.py to create diarization files
 2. Give the diarization files and your source audio files to createchunks.py to create short clips of speech
