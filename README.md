@@ -12,3 +12,5 @@ Follow along with the "#NOTE:" comments in each .py file
 1. Give your source audio to diarize.py to create diarization files
 2. Give the diarization files and your source audio files to createchunks.py to create short clips of speech
 3. Give your short clips of speech to transcribeaudio.py to create the text transcription you will use for training
+
+the output of step 2. is your wavs folder and the output of step 3. is your metadata.csv which is everything you need for an LJSpeech style dataset.
